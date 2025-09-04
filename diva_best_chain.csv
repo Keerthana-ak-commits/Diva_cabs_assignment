@@ -1,0 +1,5 @@
+leg,when,type,route,operator,phone,car
+1,2025-08-26 04:00,seek,Tata → Ranchi,,7909044685.0,Ertiga/Dzire
+2,2025-08-26 10:00,seek,Ranchi → Tata,Rohan,,Dzire
+3,2025-08-26 14:15,seek,Tata → Ranchi,Wasim,9709108878.0,ANY
+4,2025-08-26 18:30,seek,Ranchi → Tata,Rishi Tour & Travel,8651568297.0,Dzire/Ertiga
