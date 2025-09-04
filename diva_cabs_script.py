@@ -7,7 +7,7 @@
 import pandas as pd
 
 # If you used the file picker in Colab:
-path = "C:\\Users\\Keerthana AK\\Desktop\\Internship\\Diva Cabs.xlsx"  # or the file path you uploaded
+path = "Diva Cabs.xlsx"  # or the file path you uploaded
 df_raw = pd.read_excel(path, sheet_name="Sheet1")
 
 # %%
@@ -256,9 +256,9 @@ for k, (p, s) in enumerate(chains_sorted[:3], 1):
 if chains_sorted:
     best_path, best_score = chains_sorted[0]
     best_df = chain_table(best_path)
-    best_df.to_csv("C://Users//Keerthana AK//Desktop//Internship//diva_best_chain.csv", index=False)
+    best_df.to_csv("diva_best_chain.csv", index=False)
     contacts = (best_df[['operator','phone']].drop_duplicates())
-    contacts.to_csv("C://Users//Keerthana AK//Desktop//Internship///diva_best_chain_contacts.csv", index=False)
+    contacts.to_csv("diva_best_chain_contacts.csv", index=False)
     best_df.head()
 
 # %%
